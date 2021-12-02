@@ -1,6 +1,6 @@
 # MyEpic NFT 
 
-This project demonstrates a basic NFT token buildt on the ethereum network using hardhat.
+This project demonstrates a basic NFT token built on the ethereum network using hardhat.
 
 To get up and running you need to create a `.env` file in the project directory and populate with some important environment variables.
 
