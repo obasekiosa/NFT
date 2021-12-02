@@ -2,7 +2,11 @@
 
 This project demonstrates a basic NFT token built on the ethereum network using hardhat.
 
-To get up and running you need install project dependednces by running :<br>`npm install` <br>and then create a `.env` file in the project directory and populate with some important environment variables.
+To get up and running you need install project dependednces by running :<br>
+```shell 
+npm install
+```
+ <br>and then create a `.env` file in the project directory and populate with some important environment variables.
 
 ```
 STAGING_ALCHEMY_KEY=<YOUR ALCHEMY KEY FOR STAGING ENVIRONMENT>
@@ -40,8 +44,14 @@ module.exports = {
 ```
 
 
-To deploy use the `deploy.js` script by running `npx hardhat run scripts/deploy.js --network=<networkname>`<br>
-An example that deploys to the rinkeby network is `npx hardhat run scripts/deploy.js --network=rinkeby`
+To deploy use the `deploy.js` script by running 
+```shell
+npx hardhat run scripts/deploy.js --network=<networkname>
+```
+An example that deploys to the rinkeby network is 
+```shell
+npx hardhat run scripts/deploy.js --network=rinkeby
+```
 
 To run locally on a local blockchain created by hardhat use the `run.js` script by running the command `npx hardhat run scripts/run.js`
 
