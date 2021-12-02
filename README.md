@@ -2,7 +2,7 @@
 
 This project demonstrates a basic NFT token built on the ethereum network using hardhat.
 
-To get up and running you need to create a `.env` file in the project directory and populate with some important environment variables.
+To get up and running you need install project dependednces by running :<br>`npm install` <br>and then create a `.env` file in the project directory and populate with some important environment variables.
 
 ```
 STAGING_ALCHEMY_KEY=<YOUR ALCHEMY KEY FOR STAGING ENVIRONMENT>
