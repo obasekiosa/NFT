@@ -53,7 +53,10 @@ An example that deploys to the rinkeby network is
 npx hardhat run scripts/deploy.js --network=rinkeby
 ```
 
-To run locally on a local blockchain created by hardhat use the `run.js` script by running the command `npx hardhat run scripts/run.js`
+To run locally on a local blockchain created by hardhat use the `run.js` script by running the command 
+```shell 
+npx hardhat run scripts/run.js
+```
 
 
 Other built in commands from hardhat include
